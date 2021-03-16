@@ -6,7 +6,7 @@ import { Navbar, Nav, NavDropdown, FormControl, Button, Form } from 'react-boots
 function Header() {
     return (
         <div className="header">
-            <Navbar bg="light" expand="lg">
+            <Navbar bg="light" expand="lg" className="nav-size">
                 <Navbar.Brand href="#home">Dupree Realty</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
