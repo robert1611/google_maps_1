@@ -15,7 +15,7 @@ function App() {
             </div>
                 <Switch>
 
-                <Route path="/property-listing">
+                <Route path={`/property-listing/:cityKey`}>
             <PropertyListing />
                 </Route>
                 <Route path="/property">

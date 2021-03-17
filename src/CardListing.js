@@ -1,4 +1,5 @@
 import React from 'react';
+import Data from './Data';
 
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -40,7 +41,7 @@ function CardListing() {
     <Container fluid>
       <Row>
         {
-          cardContents.map(cardContent => {
+          Data.map(cardContent => {
             return (
               <Col sm={12} md={4}>
                 <Card>
@@ -48,8 +49,8 @@ function CardListing() {
                   <Card.Body>
                     <Card.Img className="card-img" variant="top" src={cardContent.image} />
                     <hr />
-                    <Link to='/property-listing'>
-                    <Card.Title className="card-title">{cardContent.title}</Card.Title>
+                    <Link to={`/property-listing/${cardContent.key}`}>
+                    <Card.Title className="card-title">{cardContent.name}</Card.Title>
                     </Link>
 
                   </Card.Body>
