@@ -4,15 +4,17 @@ import Banner from './Banner';
 import Header from './Header';
 import CardListing from './CardListing';
 import MyCarousel from './MyCarousel';
+import ImageBanner from './ImageBanner';
 
 function Home () {
     return(
         <div>
 
+          
             <div>
-            <Header />
+            <ImageBanner />
             </div>
-        
+
         
             <div>
             <Banner />

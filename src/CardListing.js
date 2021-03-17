@@ -1,15 +1,13 @@
 import React from 'react';
 
 import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 
 import Step1Image from './images/walnut.png';
 import Step2Image from './images/walnut.png';
 import Step3Image from './images/walnut.png';
-import Step4Image from './images/walnut.png';
-import Step5Image from './images/walnut.png';
-import Step6Image from './images/walnut.png';
-import Step7Image from './images/walnut.png';
+
 
 
 
@@ -31,32 +29,7 @@ function CardListing() {
     title: 'If you want to buy, BE PREPARED',
     image: Step3Image,
     content: "Limited inventory (48 days) indicates a SELLER'S market.  If you want to buy, have you s#@t together.  Don't sweat things you can easily change (i.e, paint color). Move quickly on something you like, but set limits so you don't get pulled in a bidding war.",
-  }, {
-    title: 'Check Your Sources',
-    image: Step4Image,
-    content: 'Zillow BADLY underesimtates Houston home prices. Median home price info is often misleading. Listed houses are newer and bigger than average housing stock.  The <a href="https://www.har.com/" target="_blank">Houston Association of Realtors (HAR)</a> has good data on sales prices and comps',
-  }, {
-    title: 'Roughly Even Own/Rent Split',
-    image: Step5Image,
-    content: "This surprises newcomers who expect Houston home ownership to be in line with national average of 67%.  Houston has a well supplied apartment market - it's easy to permit, build and attract capital - that means tenants usually have a lot of options",
-  }, {
-    title: "Additional Things to Consider...",
-    image: Step6Image,
-    content: "Houston has a strong job market and no state income taxes...but has some of the highest property taxes, and pretty epic floods like Hurricane Harvey.  Factor in those higher property taxes, insurance costs, and repairs when you make your decisions",
-  }, {
-    title: "Additional Things to Consider...",
-    image: Step7Image,
-    content: "Houston has a strong job market and no state income taxes...but has some of the highest property taxes, and pretty epic floods like Hurricane Harvey.  Factor in those higher property taxes, insurance costs, and repairs when you make your decisions",
-  }, {
-    title: "Additional Things to Consider...",
-    image: Step7Image,
-    content: "Houston has a strong job market and no state income taxes...but has some of the highest property taxes, and pretty epic floods like Hurricane Harvey.  Factor in those higher property taxes, insurance costs, and repairs when you make your decisions",
-  }, {
-    title: "Additional Things to Consider...",
-    image: Step7Image,
-    content: "Houston has a strong job market and no state income taxes...but has some of the highest property taxes, and pretty epic floods like Hurricane Harvey.  Factor in those higher property taxes, insurance costs, and repairs when you make your decisions",
   },
-
 ]
 
 
@@ -74,8 +47,11 @@ function CardListing() {
                   
                   <Card.Body>
                     <Card.Img className="card-img" variant="top" src={cardContent.image} />
-                    <hr /><Card.Title className="card-title">{cardContent.title}</Card.Title>
-                   
+                    <hr />
+                    <Link to='/property-listing'>
+                    <Card.Title className="card-title">{cardContent.title}</Card.Title>
+                    </Link>
+
                   </Card.Body>
                 </Card>
               </Col>
