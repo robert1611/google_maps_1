@@ -44,17 +44,14 @@ function CardListing() {
           Data.map(cardContent => {
             return (
               <Col sm={12} md={4}>
+                <Link to={`/property-listing/${cardContent.key}`}>
                 <Card>
-                  
-                  <Card.Body>
-                    <Card.Img className="card-img" variant="top" src={cardContent.image} />
-                    <hr />
-                    <Link to={`/property-listing/${cardContent.key}`}>
-                    <Card.Title className="card-title">{cardContent.name}</Card.Title>
-                    </Link>
 
-                  </Card.Body>
+                    <Card.Img src={cardContent.image} />
+                    <Card.Title>{cardContent.name}</Card.Title>
+
                 </Card>
+                </Link>
               </Col>
             )
           })
