@@ -43,7 +43,7 @@ function CardListing() {
         {
           Data.map(cardContent => {
             return (
-              <Col sm={12} md={4}>
+              <Col sm={12} md={4} key={cardContent.key}>
                 <Link to={`/property-listing/${cardContent.key}`}>
                 <Card>
 
