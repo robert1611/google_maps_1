@@ -1,4 +1,9 @@
 .nav-size {
     height: 85px;
+    opacity: 70%;
+    position: sticky;
+    background: transparent;
+    top: 0;
+    z-index: 100;
 
 }
