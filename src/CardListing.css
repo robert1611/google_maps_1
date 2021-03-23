@@ -1,0 +1,56 @@
+.card {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 0px;
+    box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.7);
+    transition: transform 100ms ease-in;
+    cursor: pointer;
+    height: 350px;
+    align-items: center;
+  }
+  
+  .card-body {
+    padding: 0px !important;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  .card > img {
+    object-fit: cover;
+    min-width: 350px;
+    min-height: 350px;
+    width: 100%;
+  }
+  
+  .card-title {
+    position: absolute;
+    top: 45%;
+    color: #fff;
+  }
+  
+  .card .h5 {
+    font-size: 24px !important;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  
+  .card-title:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 5px;
+    left: 50%;
+    top: 120%;
+    position: absolute;
+    background: #ff5a5f;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  
+  .card:hover > .card-title:after {
+    width: 100%;
+    left: 0;
+  }

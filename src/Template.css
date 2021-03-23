@@ -1,0 +1,42 @@
+.snyder-row-1 {
+   padding-bottom: 10px;
+}
+
+.title_snyder > h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.snyder-bed {
+    margin-right: 5px;
+    font-size: 12px;
+}
+.snyder-bath {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.snyder-wifi {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+.snyder-person {
+    font-size: 12px;
+}
+
+.snyder-person-text {
+    margin-left: 5px;
+}
+
+.snyder-car {
+    margin-right: 10px;
+    font-size: 12px;
+}
+.snyder-dumbbell {
+    margin-right: 100px;
+    font-size: 10px;
+}
+
+

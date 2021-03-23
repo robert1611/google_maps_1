@@ -1,0 +1,38 @@
+.intro {
+
+    font-size: 12px;
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    color: teal;
+    padding-left: 225px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    line-height: 1.6em;
+}
+
+.second {
+
+    font-weight: 700;
+    font-family: 'Cabin',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 35px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    padding-top: 25px;
+    padding-left: 200px;
+    padding-bottom: 50px;
+}
+
+.template {
+    padding-left: 200px;
+    padding-bottom: 30px;
+
+}
+
+.left {
+    font-size: 22px;
+    font-weight: 550;
+    letter-spacing: 7px;
+    line-height: 1.4em;
+
+}
+

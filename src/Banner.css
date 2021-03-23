@@ -1,5 +1,24 @@
+.banner__whole {
+    
+    background-color: #2a3439;
+    color:white;
+}
+
 .map-wrapper-col-left {
 
     height: 500px;
+    text-align: center;
     /* min-height: 400px; */
+}
+
+.banner__title > p {
+
+    font-weight: 700;
+    font-family: 'Cabin',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 35px;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+    margin-left: 200px;
+    padding-bottom: 30px;
+
 }

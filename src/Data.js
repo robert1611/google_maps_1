@@ -1,4 +1,8 @@
-import CityImage from './images/walnut.png';
+import CityImage from './images/walnut/kitchen2.jpg';
+import BigImage from './images/vine/vine_living1.jpg';
+import SnyderImage from './images/39/queen3_39.jpg';
+
+
 
 const data = [
   {
@@ -16,7 +20,7 @@ const data = [
   {
     key: "colorado-city",
     name: "Colorado City",
-    image: CityImage,
+    image: BigImage,
     properties: [
       {
         key: "colorado-city-1",
@@ -28,7 +32,7 @@ const data = [
   {
     key: "snyder",
     name: "Snyder",
-    image: CityImage,
+    image: SnyderImage,
     properties: [
       {
         key: "snyder-1",

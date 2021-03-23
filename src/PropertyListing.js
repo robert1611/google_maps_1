@@ -56,7 +56,6 @@ import EffWasher from './images/efficiency/eff_washer.jpg';
 
 import Front39 from './images/39/front_39.jpg';
 import Head39 from './images/39/head_39.jpg'
-
 import Living139 from './images/39/living1_39.jpg';
 import Living239 from './images/39/living2_39.jpg';
 import Living339 from './images/39/living3_39.jpg';
