@@ -4,7 +4,7 @@ import "./Template.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 // import { faStroopwafel } from '@fortawesome/free-solid-svg-icons';
-import { faBed, faBath, faWifi, faMale, faCar, faDumbbell } from '@fortawesome/free-solid-svg-icons';
+import { faBed, faBath, faWifi, faMale, faCar, faDumbbell, faTv, faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -28,17 +28,23 @@ function Template() {
     <Row className="title_snyder">
         {/* <p><FontAwesomeIcon icon={faCoffee} />
         <FontAwesomeIcon icon={faStroopwafel} /> </p>  */}
-        <p> <FontAwesomeIcon icon={faBed}  className="snyder-bed"/> 3 </p>
-        <p><FontAwesomeIcon icon={faBath}  className="snyder-bath"/>  2 </p> 
-        <p><FontAwesomeIcon icon={faWifi}  className="snyder-wifi"/> </p> 
-        <p> Sleeps Max <FontAwesomeIcon icon={faMale}  className="snyder-person"/> <FontAwesomeIcon icon={faMale} className="snyder-person" /> <FontAwesomeIcon icon={faMale} className="snyder-person"/> <FontAwesomeIcon icon={faMale} className="snyder-person" /> <FontAwesomeIcon icon={faMale} className="snyder-person" /> </p> 
-        <p className="snyder-person-text"> Off-Street Parking </p><p><FontAwesomeIcon icon={faCar} className="snyder-car" /> </p> 
-        <p > Fitness <FontAwesomeIcon icon={faDumbbell} className="snyder-dumbbell"/> </p>
+        <p className="snyder-bed-text"> <FontAwesomeIcon icon={faBed}  className="snyder-bed"/> 4 | </p>
+        <p className="snyder-bath-text"><FontAwesomeIcon icon={faBath}  className="snyder-bath"/>  2 | </p> 
+        <p className="snyder-wifi-text"><FontAwesomeIcon icon={faWifi}  className="snyder-wifi"/> 400 MB | </p> 
+        <p className="synder-tv-text">| <FontAwesomeIcon icon={faTv} className="snyder-tv"/> 3 | </p>
+        <p className="snyder-sqft-text"> SqFt 1174 | </p>
+        <p className="snyder-guests-text"> Max <FontAwesomeIcon icon={faMale}  className="snyder-person"/> 5 | </p> 
+        <p className="snyder-driveway-text"> Driveway </p><p><FontAwesomeIcon icon={faCar } className="snyder-car"  /> </p> 
+        <p className="snyder-driveway-text"> | Street </p><p><FontAwesomeIcon icon={faCar} className="snyder-car2" /> <FontAwesomeIcon icon={faCar} className="snyder-car2" /></p> 
+        <p className="snyder-fitness-text"> | Fitness <FontAwesomeIcon icon={faDumbbell} className="snyder-dumbbell"/> | </p>
+        <p className="snyder-coffee-text"> <FontAwesomeIcon icon={faCoffee} className="snyder-coffee"/></p>
+       
+        
     </Row>
 
 
 
-      <Row className="snyder-row-1"> 
+      <Row className="snyder-row-1">  
         <Col><img className="front_39" src={ Front39 } /></Col>
         <Col><img className="front_39" src={ Front39 } /> </Col>
         <Col><img className="front_39" src={ Front39 } /> </Col>

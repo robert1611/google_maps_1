@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Cogdell Hospital",
+    "coordinates": {
+      "lat": "32.6877",
+      "lng": "-100.9170"
+    },
+    "iconUrl": "/hospital.ico"
+  },
+  {
+    "name": "Dermott Wind Farm",
+    "coordinates": {
+      "lat": "32.8545",
+      "lng": "-101.0157"
+    },
+    "iconUrl": "/favicon.ico"
+  }
+]

@@ -5,9 +5,9 @@ import Header from './Header';
 import CardListing from './CardListing';
 import MyCarousel from './MyCarousel';
 import ImageBanner from './ImageBanner';
-import Test from './Test';
 import Template from './Template';
-import CalendarCard from './CalendarCard';
+import DatePicker from './DatePicker';
+import Test from './Test';
 
 
 function Home () {
@@ -41,8 +41,9 @@ function Home () {
             </div>
             
             <div>
-            <CalendarCard />
+            <DatePicker/>
             </div>
+
             
 
         </div>

@@ -7,36 +7,106 @@
     padding-bottom: 10px;
 
 }
-
 .snyder-bed {
-    margin-right: 5px;
+    margin-right: 3px;
+    font-size: 12px;
+}
+.snyder-bed-text {
+    margin-right: 3px;
     font-size: 12px;
 }
 .snyder-bath {
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 12px;
+}
+.snyder-bath-text {
+    margin-right: 3px;
+    margin-left: 3px;
     font-size: 12px;
 }
 .snyder-wifi {
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
     font-size: 12px;
 }
-.snyder-person {
+.snyder-wifi-text {
+    margin-right: 3px;
+    margin-left: 3px;
+    font-size: 12px;
+}
+.snyder-tv {
+    margin-right: 3px;
+    font-size: 12px;
+}
+.synder-tv-text {
+    margin-right: 3px;
     font-size: 12px;
 }
 
-.snyder-person-text {
-    margin-left: 5px;
+.snyder-sqft {
+    margin-right: 1px;
+    margin-left: 3px;
+    font-size: 12px;
+}
+.snyder-sqft-text {
+    margin-right: 1px;
+    margin-left: 3px;
+    font-size: 12px;
+}
+.snyder-guests {
+    font-size: 12px;
+    margin-right: 3px;
+    margin-left: 0px;
+}
+.snyder-guests-text {
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.max-guests {
+    margin-left: 3px;
 }
 
 .snyder-car {
-    margin-right: 10px;
-    font-size: 12px;
+    margin-left: 1px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    font-size: 11px;
 }
+.snyder-car2 {
+    margin-left: 0px;
+    margin-right: 2px;
+    margin-bottom: 3px;
+    font-size: 11px;
+}
+.snyder-driveway-text {
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 12px;
+    
+}
+.snyder-fitness {
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 12px; 
+}
+.snyder-fitness-text {
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 12px;  
+}
+
 .snyder-dumbbell {
-    margin-right: 100px;
+    margin-right: 3px;
     font-size: 10px;
+}
+
+.snyder-coffee {
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    font-size: 9px;
 }
 
 
