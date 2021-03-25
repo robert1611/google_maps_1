@@ -1,13 +1,22 @@
-.banner__whole {
+body {
     
-    background-color: #2a3439;
+
+}
+
+.banner__whole {
+ 
+    background-color:blue;
     color:white;
+    flex-grow: 1;
+  
 }
 
 .map-wrapper-col-left {
 
-    height: 500px;
+    height: 600px;
     text-align: center;
+    flex-grow: 1;
+    width: 100vw;
     /* min-height: 400px; */
 }
 
@@ -18,7 +27,12 @@
     font-size: 35px;
     letter-spacing: 0em;
     line-height: 1.4em;
-    margin-left: 200px;
+    justify-content: center;
     padding-bottom: 30px;
 
+}
+
+.banner-title2 {
+    justify-content: center;
+    
 }

@@ -38,21 +38,24 @@ function Template() {
         <p className="snyder-driveway-text"> | Street </p><p><FontAwesomeIcon icon={faCar} className="snyder-car2" /> <FontAwesomeIcon icon={faCar} className="snyder-car2" /></p> 
         <p className="snyder-fitness-text"> | Fitness <FontAwesomeIcon icon={faDumbbell} className="snyder-dumbbell"/> | </p>
         <p className="snyder-coffee-text"> <FontAwesomeIcon icon={faCoffee} className="snyder-coffee"/></p>
-       
-        
-    </Row>
+     </Row>
 
 
 
       <Row className="snyder-row-1">  
-        <Col><img className="front_39" src={ Front39 } /></Col>
-        <Col><img className="front_39" src={ Front39 } /> </Col>
-        <Col><img className="front_39" src={ Front39 } /> </Col>
-      </Row>
-      <Row>
-        <Col><img className="front_39" src={ Front39 } /></Col>
-        <Col><img className="front_39" src={ Front39 } /></Col>
-        <Col><img className="front_39" src={ Front39 } /></Col>
+      <Col sm={6}>
+       <Col xs={12}><img className="snyder-image-1A" src={ Front39 } /></Col>
+      </Col>
+      <Col sm={6}>
+        <Row>
+        <Col sm={6}><img className="snyder-image-2A" src={ Front39 } /> </Col>
+        <Col sm={6}><img className="snyder-image-3A" src={ Front39 } /> </Col>
+        <Col sm={6} ><img className="snyder-image-4A" src={ Front39 } /></Col>
+        <Col sm={6}><img className="snyder-image-5A" src={ Front39 } /></Col>
+        </Row>
+      </Col>
+       
+       
       </Row>
     </Container>
   </>

@@ -3,7 +3,7 @@
     font-size: 12px;
     font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
     color: teal;
-    padding-left: 225px;
+    justify-content: center;
     padding-top: 30px;
     text-transform: uppercase;
     letter-spacing: 7px;
@@ -22,9 +22,16 @@
     padding-bottom: 50px;
 }
 
+@media screen and (max-width: 950px) {
+    .second{
+     padding-left: 75px;
+    }
+}
+
 .template {
-    padding-left: 200px;
+    padding-left: 0px;
     padding-bottom: 30px;
+    justify-content:center;
 
 }
 
@@ -36,3 +43,8 @@
 
 }
 
+.wrapper {
+ 
+    
+    
+}

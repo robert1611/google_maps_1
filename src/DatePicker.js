@@ -1,40 +1,37 @@
-import React, {useState} from 'react';
-import "react-date-range/dist/styles.css";
-import "react-date-range/dist/theme/default.css";
-import { DateRangePicker } from 'react-date-range';
-import { Button } from "@material-ui/core";
-import PeopleIcon from "@material-ui/icons/People";
-import { useHistory } from "react-router-dom";
+import React, {Component} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-dates/initialize';
+import 'react-dates/lib/css/_datepicker.css';
+import {DateRangePicker} from 'react-dates';
+import Moment from "moment";
+import { extendMoment } from "moment-range";
 import './DatePicker.css';
 
-
-function Search() {
-    const history = useHistory();
-    const [startDate, setStartDate] = useState
-    (new Date());
-    const [endDate, setEndDate] = useState
-    (new Date());
-
-    const selectionRange = {
-        startDate: startDate,
-        endDate: endDate,
-        key: "selection",
+class DatePicker extends Component {
+    state = {
+      startDate: null,
+      endDate: null
     };
-
-    function handleSelect(ranges)  {
-        setStartDate(ranges.selection.startDate);
-        setEndDate(ranges.selection.endDate);
-    }
-
-    return (
-        <div className='search'>
-            <DateRangePicker ranges={
-                [selectionRange]} onChange={handleSelect} />
-                
-                
-                <Button onClick={() => history.push('/search') } >Search AirBnB</Button>
-        </div>
-    )
-}
-
-export default Search
+    alertStartDate = () => {alert(this.state.startDate)};
+    alertEndDate = () => {alert(this.state.endDate)};
+    render() {
+      return (
+      <div className='DatePicker'>
+        <DateRangePicker
+          startDate={this.state.startDate} 
+          startDateId="your_unique_start_date_id" 
+          endDate={this.state.endDate} 
+          disabled={[new Date(2021, 4, 10), new Date(2021, 4, 15)]}
+          endDateId="your_unique_end_date_id" 
+          onDatesChange={({ startDate, endDate }) => this.setState({  startDate, endDate })} 
+          focusedInput={this.state.focusedInput} 
+          onFocusChange={focusedInput => this.setState({ focusedInput })}
+          isDayBlocked={this.isBlocked} 
+        />
+      <button onClick={this.alertStartDate}>Click me for start date</button>
+      <button onClick={this.alertEndDate}>Click me for end date</button>
+    </div>
+    );
+   }
+  }
+  export default DatePicker;

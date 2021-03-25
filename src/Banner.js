@@ -6,20 +6,22 @@ import './Banner.css';
 
 function Banner() {
     return (
-        <Container className="banner__whole">
+        <Container fluid={true} className="banner__whole">
             
 
             <Row className="banner__title">
+                <Col>
 
-            <p>Points of interest in West Texas</p>
+            <p className="banner-title2">Points of interest in West Texas</p>
+                </Col>
 
             </Row>
 
             <Row>
-                <Col className="map-wrapper-col-left" sm={12} md={6}>
+                <Col className="map-wrapper-col-left" sm={12} md={8}>
                     <Map />
                 </Col>
-                <Col sm={12} md={6}> <Interest />
+                <Col sm={12} md={4}> <Interest />
                 </Col> 
                    
             </Row>

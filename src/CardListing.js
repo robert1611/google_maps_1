@@ -43,12 +43,12 @@ function CardListing() {
         {
           Data.map(cardContent => {
             return (
-              <Col sm={12} md={4}>
-                <Card>
+              <Col xs={12} sm={6} md={4}>
+                <Card style={{height: "unset"}}>
                   
                   <Card.Body>
                     <Card.Img className="card-img" variant="top" src={cardContent.image} />
-                    <hr />
+                   
                     <Link to={`/property-listing/${cardContent.key}`}>
                     <Card.Title className="card-title">{cardContent.name}</Card.Title>
                     </Link>

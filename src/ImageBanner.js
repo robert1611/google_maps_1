@@ -1,6 +1,6 @@
 import React from 'react';
 import './ImageBanner.css';
-import BannerImage from './images/landscape.jpg';
+import BannerImage from './images/windmill.jpg';
 
 function ImageBanner() {
     return (
